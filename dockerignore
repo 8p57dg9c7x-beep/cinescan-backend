@@ -1,0 +1,50 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment files (will be set on Render)
+.env
+.env.local
+.env.*.local
+
+# Backups and temporary files
+*.bak
+*.tmp
+server_old_backup.py
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Documentation and config files not needed in container
+packages.txt
+apt-packages.txt
+README.md
+*.md

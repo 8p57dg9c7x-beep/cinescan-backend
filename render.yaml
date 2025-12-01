@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: cinescan-backend
+    env: docker
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: AUDD_API_KEY
+        sync: false
+      - key: GOOGLE_VISION_API_KEY
+        sync: false
+      - key: TMDB_API_TOKEN
+        sync: false
+      - key: OPENAI_API_KEY
+        sync: false
+    healthCheckPath: /
+    autoDeploy: true
