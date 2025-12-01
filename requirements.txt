@@ -6,3 +6,4 @@ requests
 tmdbv3api
 pydantic
 pydub
+python-multipart
