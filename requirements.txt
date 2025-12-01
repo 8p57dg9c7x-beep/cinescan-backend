@@ -7,4 +7,3 @@ tmdbv3api
 pydantic
 pydub
 python-multipart
-✅ Click Commit changes
